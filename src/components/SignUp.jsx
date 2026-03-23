@@ -66,7 +66,7 @@ const SignUp = () => {
 
       <div className='card shadow col-md-6' >
 
-        <h1  >SignUp</h1>
+        <h1 className='text-dark' >SignUp</h1>
         <form action="" onSubmit={submit}>
 
           
@@ -86,7 +86,7 @@ const SignUp = () => {
 
         <input type="password" placeholder='Enter your password' class='form-control' required value={password} onChange={(e)=>setPassword(e.target.value)}/>
         <br />
-        <br /><br />
+        <br />
         
 
         <button  type="submit" value='SignUp' placeholder='SignUp' 
@@ -94,9 +94,9 @@ const SignUp = () => {
 
         
 
+        
         <br />
-        <br />
-        <p >Already have an account?  <Link to='/SignIn' >SignIn</Link></p>
+        <p className='text-dark' >Already have an account?   <Link to='/SignIn' >SignIn</Link></p>
 
         <br />
         </form>
@@ -111,6 +111,7 @@ const SignUp = () => {
     </section>
   )
 }
+
 
 
 export default SignUp

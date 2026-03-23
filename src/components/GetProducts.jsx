@@ -50,7 +50,7 @@ const fetch_products=async()=>{
 
   
   return (
-    <section className='row ' >
+    <section className='row ' id='home' >
 
       <h1>Available products</h1>
       <p  className='text-danger'>{error}</p>
@@ -69,8 +69,8 @@ const fetch_products=async()=>{
           <div className='card-body' id='cardbody'>
 
           <h4 className='text-success'>{product.product_name}</h4>
-          <p  className='text-secondary'>{product.product_description}</p>
-          <b  className='text-info'>ksh {product.product_cost}</b>
+          <p  className='text-secondary' id='pd'>{product.product_description}</p>
+          <b  className='text-info'>ksh {product.product_cost}m</b>
           <br />
           <input id='buybtn' type="submit" className='btn  form-control w-100 ' value='Buy' onClick={()=>navigate('/mpesa' ,{state:{product}})}/>
 

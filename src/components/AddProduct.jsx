@@ -71,7 +71,7 @@ const AddProduct = () => {
 
       <div className='card shadow col-md-6' >
 
-      <h1 className='text-warning'>Upload Products</h1>
+      <h1 className='text-dark'>Upload Products</h1>
 
       <form action="" onSubmit={submit} >
 
@@ -96,7 +96,7 @@ const AddProduct = () => {
 
       <br />
 
-      <h5 className='text-warning'>Upload product photo</h5>
+      <h5 id='had5' className='text-dark'>Upload product photo</h5>
       <input
        type="file" 
        className='form-control' 

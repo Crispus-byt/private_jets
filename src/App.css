@@ -4,26 +4,72 @@
 
 #l1{
   text-decoration: none;
+  text-align: center;
+  color: #ffffff;
 
   
+}
+
+#l1:hover{
+  text-decoration: none;
+  text-align: center;
+  color: #295b0c;
+  transition: 1000ms;
+
+  
+}
+
+.contact{
+  text-align: justify;
+}
+
+.about-container {
+  
+  color: rgb(0, 0, 0);
+  padding: 30px;
+  border-radius: 10px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.about-container h2 {
+  color: #FFD700;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  margin-bottom: 15px;
+}
+
+#search{
+    position: relative;
+  left: 560px;
+  border-radius: 10px;
+
 }
 
 #l2{
   text-decoration: none;
-  background-color: rgba(255, 196, 0, 0.719);
+  background-color: rgba(143, 12, 5, 0.613);
+    position: relative;
+  left: 560px;
   
 }
 
-#sign{
-  background-image: url('images/inside.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 20px;
-  height: 440px;
+#l2:hover{
+  text-decoration: none;
+  background-color:#3A86FF;
+  position: relative;
+  left: 560px;
+  transition: 1000ms;
   
   
-
 }
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;
@@ -37,7 +83,7 @@
 }
 
 .App-header {
-  background-color: #000000;
+  background-color: #0F3D3E;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -62,10 +108,18 @@
 }
 
 .product_img{
-  height: 320px;
+  height: 327px;
   border-radius: 2px;
-  width: 100%;
+  width:375px;
   object-fit: cover;
+
+  
+  
+}
+
+#mpesacard{
+  width: 40%;
+  border-radius: 20px;
 }
 
 #cardbody{
@@ -88,6 +142,7 @@
 }
 
 
+
 #add-product {
   
   background-color: rgb(255, 255, 255);
@@ -105,4 +160,12 @@
   color: white;
   border-radius: 20px;
   height: 440px;
+}
+
+#had5{
+  text-decoration: underline skyblue;
+}
+
+#pd{
+  height: 96px;
 }

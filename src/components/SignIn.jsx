@@ -103,14 +103,13 @@ const SignIn = () => {
            <br />
            <br /><br /><br /><br /><br />
 
-          <input type="submit" value='Signin' placeholder='SignUp' 
-          className=' btn bg-success form-control text-white w-100 '  />
+         <button  type="submit" value='Signin' placeholder='Signin' 
+        className=' btn bg-success form-control text-white w-100 '  disabled={loading} >{loading ? 'signing up...':'sign up'}</button>
 
             <br />
-            
-            
-            
-            <p className='text-dark'>Don't have an account? <Link to='/signup'>Signin</Link></p>
+
+                                    
+          <p className='text-dark'>Don't have an account? <Link to='/signup'>Signin</Link></p>
 
 
 

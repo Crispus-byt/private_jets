@@ -63,7 +63,7 @@ const Mpesapay = () => {
   return (
   <section className='row justify-content-center mt-4'>
 
-    <div  className='card shadow col-md-8'>
+    <div  className='card shadow col-md-8' id='mpesacard'>
 
     <form  action="" onSubmit={submit}>
 
@@ -71,8 +71,8 @@ const Mpesapay = () => {
       <h2>Make payments</h2>
       <p className='text-success'>{product.product_name}</p>
       <img id='card1' src={img_url+product.product_photo } alt="" className='product_img' />
-      <p className='text-info'>{product.product_description}</p>
-      <p className='text-dark'>ksh {product.product_cost}</p>
+      <p className='text-dark'>{product.product_description}</p>
+      <p className='text-info'>ksh {product.product_cost}m</p>
 
       <p className='text-success'>{success}</p>
       <p className='text-warning'>{loading}</p>
