@@ -1,5 +1,6 @@
 .App{
   text-align: center;
+ 
 }
 
 #l1{
@@ -42,25 +43,23 @@
 }
 
 #search{
-    position: relative;
-  left: 560px;
+
   border-radius: 10px;
+  width: 160px;
 
 }
 
 #l2{
   text-decoration: none;
   background-color: rgba(143, 12, 5, 0.613);
-    position: relative;
-  left: 560px;
+
   
 }
 
 #l2:hover{
   text-decoration: none;
   background-color:#3A86FF;
-  position: relative;
-  left: 560px;
+  
   transition: 1000ms;
   
   
@@ -82,17 +81,6 @@
   }
 }
 
-.App-header {
-  background-color: #0F3D3E;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  backdrop-filter: var(blur(10px));
-}
 
 .App-link {
   color: #61dafb;
@@ -110,7 +98,7 @@
 .product_img{
   height: 327px;
   border-radius: 2px;
-  width:375px;
+  width:100%;
   object-fit: cover;
 
   
@@ -132,7 +120,7 @@
   background-color: rgb(108, 136, 31);
   -webkit-text-fill-color: white;
   transition: 2000ms;
-
+  
 }
 
 #buybtn{
@@ -151,7 +139,7 @@
   min-height: 70vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  
   background-blend-mode: color-dodge;
 }
 
@@ -159,7 +147,7 @@
   background-color: rgba(255, 255, 255, 0.945);
   color: white;
   border-radius: 20px;
-  height: 440px;
+  height: 445px;
 }
 
 #had5{
@@ -168,4 +156,39 @@
 
 #pd{
   height: 96px;
+}
+
+#nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  .App-header {
+    background-color: #0F3D3E;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    
+    
+    width: 100%;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    backdrop-filter: var(blur(10px));
+  }
+
+#maincard{
+  width: 300px;
+  height: 600px;
+  margin-left: -20px;
+  
+  
+}
+
+#body{
+  justify-content: center;
+ padding: auto ;
+ margin-top: 80px;
+ height: 570px;
+ margin-left: 90px;
+ 
 }

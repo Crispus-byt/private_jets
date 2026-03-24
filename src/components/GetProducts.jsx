@@ -60,7 +60,7 @@ const fetch_products=async()=>{
 
       {products.map((product=>
 
-      <div className='col-md-3 justify-content-center m-5'>
+      <div className='col-md-3 justify-content-center ' id='body'>
 
         <div className='card shadow' id='maincard'>
 
@@ -70,7 +70,9 @@ const fetch_products=async()=>{
 
           <h4 className='text-success'>{product.product_name}</h4>
           <p  className='text-secondary' id='pd'>{product.product_description}</p>
-          <b  className='text-info'>ksh {product.product_cost}m</b>
+
+          <br />
+          <b  className='text-info m-2'>ksh {product.product_cost}m</b>
           <br />
           <input id='buybtn' type="submit" className='btn  form-control w-100 ' value='Buy' onClick={()=>navigate('/mpesa' ,{state:{product}})}/>
 

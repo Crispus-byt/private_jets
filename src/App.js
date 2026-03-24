@@ -36,9 +36,9 @@ function App() {
          <Link id='l1' className='m-3' to='/aboutus'>About us</Link>
          <Link id='l1' className='m-3' to='/contactus'>Contact us</Link>
 
-          <input id='search' type="search" placeholder='search'  />
+          <input  id='search' type="search" placeholder='search'  />
         <Link id='l2' className='btn text-white m-3' to='/SignIn'>SignIn</Link>
-        <Link id='l2' className='btn text-white m-3' class to='/signup'>Register</Link>
+        <Link id='l2' className='btn btn-dark text-white m-3' class to='/signup'>Register</Link>
 
 
 
